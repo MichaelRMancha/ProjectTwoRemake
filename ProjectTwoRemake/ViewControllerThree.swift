@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ViewControllerThree: UIViewController {
-
+class ViewControllerThree: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    @IBOutlet var tableViewOne: UITableView!
+    var arrayOne = ["Visit England","Be knighhted", "Live in a big city", "Get my Ph.D", "Be famous"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.tableView.dataSource = self
+        tableView.delegate = self
         // Do any additional setup after loading the view.
     }
 
@@ -20,8 +23,19 @@ class ViewControllerThree: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+   
+    func numberOfSections(in tableView: UITableView) -> Int {
+    }
     
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return arrayOne.count
+    }
 
+    func tabeleView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) ->
+        UITableViewCell {
+}
+    
     /*
     // MARK: - Navigation
 

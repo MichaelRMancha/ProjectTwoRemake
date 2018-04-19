@@ -15,9 +15,6 @@
 		06C5DBC22079FAE6009C4379 /* ProjectTwoRemakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C5DBC12079FAE6009C4379 /* ProjectTwoRemakeTests.swift */; };
 		06C5DBCD2079FAE6009C4379 /* ProjectTwoRemakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C5DBCC2079FAE6009C4379 /* ProjectTwoRemakeUITests.swift */; };
 		06C5DBDB2079FCE7009C4379 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C5DBDA2079FCE7009C4379 /* ViewController2.swift */; };
-		06C5DBDD2079FFB7009C4379 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06C5DBDC2079FFB7009C4379 /* image.jpg */; };
-		06C5DBDF2079FFD0009C4379 /* Unknown copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C5DBDE2079FFCF009C4379 /* Unknown copy.png */; };
-		06C5DBE1207A0432009C4379 /* iOS_11_glyph_icons in Resources */ = {isa = PBXBuildFile; fileRef = 06C5DBE0207A0432009C4379 /* iOS_11_glyph_icons */; };
 		06C5DBE3207A08CB009C4379 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C5DBE2207A08CB009C4379 /* ViewControllerThree.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,9 +50,6 @@
 		06C5DBCC2079FAE6009C4379 /* ProjectTwoRemakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTwoRemakeUITests.swift; sourceTree = "<group>"; };
 		06C5DBCE2079FAE6009C4379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06C5DBDA2079FCE7009C4379 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		06C5DBDC2079FFB7009C4379 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = "../../../MRM Folder/image.jpg"; sourceTree = "<group>"; };
-		06C5DBDE2079FFCF009C4379 /* Unknown copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Unknown copy.png"; path = "../../../MRM Folder/Unknown copy.png"; sourceTree = "<group>"; };
-		06C5DBE0207A0432009C4379 /* iOS_11_glyph_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS_11_glyph_icons; path = ../../../iOS_11_glyph_icons; sourceTree = "<group>"; };
 		06C5DBE2207A08CB009C4379 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,9 +107,6 @@
 				06C5DBE2207A08CB009C4379 /* ViewControllerThree.swift */,
 				06C5DBB02079FAE3009C4379 /* Main.storyboard */,
 				06C5DBB32079FAE6009C4379 /* Assets.xcassets */,
-				06C5DBE0207A0432009C4379 /* iOS_11_glyph_icons */,
-				06C5DBDE2079FFCF009C4379 /* Unknown copy.png */,
-				06C5DBDC2079FFB7009C4379 /* image.jpg */,
 				06C5DBB52079FAE6009C4379 /* LaunchScreen.storyboard */,
 				06C5DBB82079FAE6009C4379 /* Info.plist */,
 			);
@@ -247,9 +238,6 @@
 				06C5DBB72079FAE6009C4379 /* LaunchScreen.storyboard in Resources */,
 				06C5DBB42079FAE6009C4379 /* Assets.xcassets in Resources */,
 				06C5DBB22079FAE3009C4379 /* Main.storyboard in Resources */,
-				06C5DBDF2079FFD0009C4379 /* Unknown copy.png in Resources */,
-				06C5DBE1207A0432009C4379 /* iOS_11_glyph_icons in Resources */,
-				06C5DBDD2079FFB7009C4379 /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
