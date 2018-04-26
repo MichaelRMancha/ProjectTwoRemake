@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController2: UIViewController {
-
+    @IBAction func tempCheck(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

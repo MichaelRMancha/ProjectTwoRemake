@@ -29,10 +29,10 @@
             </objects>
             <point key="canvasLocation" x="-1479" y="195"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="KIL-8R-X3y">
             <objects>
-                <viewController id="H97-Tz-wb4" sceneMemberID="viewController">
+                <viewController id="H97-Tz-wb4" customClass="ViewController2" customModule="ProjectTwoRemake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HSY-Wg-Y6a">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,6 +50,7 @@
                                 <state key="normal" title="Convert"/>
                                 <connections>
                                     <action selector="convertOne:" destination="Xd4-iv-A9I" eventType="touchUpInside" id="kjv-v2-Upb"/>
+                                    <action selector="tempCheck:" destination="H97-Tz-wb4" eventType="touchUpInside" id="Fcf-H5-z58"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iag-Ra-gRS">
@@ -83,7 +84,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="cew-kh-MRg">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellReuseIdentifier" id="cew-kh-MRg">
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cew-kh-MRg" id="4Bu-Jj-Cfe">
@@ -93,8 +94,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="7WY-Bf-bTV" id="HGI-9E-RAa"/>
-                                    <outlet property="delegate" destination="7WY-Bf-bTV" id="wKe-2F-pfe"/>
+                                    <outlet property="dataSource" destination="7WY-Bf-bTV" id="nmK-6O-kh3"/>
+                                    <outlet property="delegate" destination="7WY-Bf-bTV" id="qE1-hl-Eow"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -103,7 +104,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="WXJ-E0-9jf"/>
                     <connections>
-                        <outlet property="tableViewOne" destination="TeC-yh-JxS" id="VrT-hf-AkN"/>
+                        <outlet property="tableView" destination="TeC-yh-JxS" id="gof-pj-HR4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g6B-1v-qqW" userLabel="First Responder" sceneMemberID="firstResponder"/>

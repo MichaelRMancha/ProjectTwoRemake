@@ -9,22 +9,43 @@
 import UIKit
 
 class ViewControllerThree: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    @IBOutlet var tableViewOne: UITableView!
+   
+    @IBOutlet var tableView: UITableView!
     var arrayOne = ["Visit England","Be knighhted", "Live in a big city", "Get my Ph.D", "Be famous"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         self.tableView.dataSource = self
-        tableView.delegate = self
         // Do any additional setup after loading the view.
     }
-
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return arrayOne.count
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")
+        let text = arrayOne[indexPath.row]
+        cell?.textLabel?.text = text
+        return cell!
+    }
+    
+    
+    
+    
+    /*
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
    
     func numberOfSections(in tableView: UITableView) -> Int {
+    return 1
     }
     
     
@@ -34,8 +55,14 @@ class ViewControllerThree: UIViewController, UITableViewDelegate, UITableViewDat
 
     func tabeleView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) ->
         UITableViewCell {
-}
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")
+            let text = arrayOne[indexPath.row]
+            cell?.textLabel?.text = text
+            return cell!
     
+    
+    }
+    */
     /*
     // MARK: - Navigation
 
