@@ -18,6 +18,7 @@ class ViewControllerThree: UIViewController, UITableViewDelegate, UITableViewDat
        
         self.tableView.dataSource = self
         // Do any additional setup after loading the view.
+        title = "Bucket List"
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

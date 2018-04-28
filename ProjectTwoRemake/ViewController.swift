@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     self.labelFour.text = "Psychology"
     self.labelFive.text = "My Spring 2018 Classes are:"
     self.textViewOne.text = "My classes for this semester are Creative Media 161, Historical Archeology, American History II, Senior Project for Psychology, and Statisitcs"
+    title = "About Me"
     }
     
     override func didReceiveMemoryWarning() {
